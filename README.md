@@ -17,7 +17,7 @@ mkdir sense-base && cd sense-base
 git clone git@github.com:sense-base/base.git
 cd base
 mkdir workspace/src
-# Clone this sense_bridge repo
+# Clone this sense_eeg_cpp repo
 git clone git@github.com:sense-base/sense_eeg_cpp.git
 # Clone the sense_msgs package
 git clone git@github.com:sense-base/sense_msgs.git
