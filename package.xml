@@ -1,6 +1,6 @@
 
 <package format="3">
-  <name>sense_eeg_cpp</name>
+  <name>eeg_publisher_cpp</name>
   <version>0.0.1</version>
   <description>Mock EEG publisher in C++</description>
   <maintainer email="a.al-hindawi@ucl.ac.uk">Ahmed Al-Hindawi</maintainer>

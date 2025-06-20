@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(sense_eeg_cpp)
+project(eeg_publisher_cpp)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
