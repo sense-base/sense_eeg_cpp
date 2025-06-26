@@ -1,0 +1,18 @@
+
+<package format="3">
+  <name>eeg_publisher_cpp</name>
+  <version>0.0.1</version>
+  <description>Mock EEG publisher in C++</description>
+  <maintainer email="a.al-hindawi@ucl.ac.uk">Ahmed Al-Hindawi</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>eeg_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
