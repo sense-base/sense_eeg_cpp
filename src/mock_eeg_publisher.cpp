@@ -13,8 +13,8 @@ class MockEEGPublisher : public rclcpp::Node {
 public:
     MockEEGPublisher()
     : Node("mock_eeg_publisher"),
-        num_channels_(declare_parameter<int>("num_channels", 8)),
-        num_samples_(declare_parameter<int>("num_samples", 32)),
+        num_channels_(declare_parameter<int>("num_channels", 1)),
+        num_samples_(declare_parameter<int>("num_samples", 1)),
         sampling_rate_(declare_parameter<double>("sampling_rate", 256.0)),
         rng_(std::random_device{}())
     {
