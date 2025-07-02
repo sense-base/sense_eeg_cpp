@@ -33,5 +33,5 @@ ros2 launch eeg_publisher_cpp mock_publisher_launch.py
 
 To modify the parameters, in the workspace run (for example):
 ```bash
-ros2 run eeg_publisher_cpp mock_publisher_launch.py--ros-args -p num_channels:=32 -p sampling_rate:=1024.0
+ros2 run eeg_publisher_cpp mock_eeg_publisher --ros-args -p num_channels:=32 -p sampling_rate:=1024.0
 ```
