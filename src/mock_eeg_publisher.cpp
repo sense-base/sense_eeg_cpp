@@ -13,10 +13,10 @@ class MockEEGPublisher : public rclcpp::Node {
 public:
     MockEEGPublisher()
     : Node("mock_eeg_publisher"),
-      num_channels_(8),
-      num_samples_(32),
-      sampling_rate_(256.0),
-      rng_(std::random_device{}())
+        num_channels_(declare_parameter<int>("num_channels", 1)),
+        num_samples_(declare_parameter<int>("num_samples", 1)),
+        sampling_rate_(declare_parameter<double>("sampling_rate", 256.0)),
+        rng_(std::random_device{}())
     {
         publisher_ = this->create_publisher<eeg_msgs::msg::EEGBlock>("/eeg/raw", 10);
 
